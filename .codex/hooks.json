@@ -1,0 +1,7 @@
+{
+  "description": "Capture user prompts and final Codex responses for the 8x assignment.",
+  "hooks": {
+    "UserPromptSubmit": [{"hooks": [{"type": "command", "command": "node .codex/capture.js", "commandWindows": "node .codex/capture.js", "timeout": 10}]}],
+    "Stop": [{"hooks": [{"type": "command", "command": "node .codex/capture.js", "commandWindows": "node .codex/capture.js", "timeout": 10}]}]
+  }
+}
