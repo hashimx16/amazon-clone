@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+:root { color-scheme: light; }
+html { scroll-behavior: smooth; }
+body { margin: 0; background: #f7f8fa; color: #111827; font-family: "Amazon Ember", system-ui, -apple-system, sans-serif; line-height: 1.35; }
+button, input, select { font: inherit; }
+::selection { background: #e5e7eb; color: #111827; }
+html[data-has-seen-splash="true"] #intro-splash { display: none; }
